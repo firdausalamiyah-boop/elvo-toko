@@ -20,7 +20,7 @@ window.TOKO = {
   sheetCSV: '',
   // LOGO & FOTO — ganti cukup timpa berkas di img/ atau ubah path di sini.
   logo: 'img/logo.svg',              // tampil di header; kosongkan '' = inisial nama toko
-  fotoKosong: 'img/foto-produk.svg'  // dipakai bila produk tanpa gambar / foto gagal dimuat
+  fotoKosong: 'puding-coklat.webp'  // dipakai bila produk tanpa gambar / foto gagal dimuat
 };
 
 /* Gambar: isi dengan URL foto (mis. "img/kaos-1.jpg") ATAU objek ilustrasi
@@ -29,7 +29,7 @@ window.PRODUK = [
   {
     id: 'puding coklat', nama: 'puding coklat', kategori: 'puding', harga: 5000, label: 'Terlaris', stok: 10,
     deskripsi: 'puding coklat lembut di mulut.',
-    varian: [{ nama: 'Ukuran', opsi: ['cup 120','cup 200'], tambah:{ 'Cup 200 ml': 5000 } }],
+    varian: [{ nama: 'Ukuran', opsi: ['cup 120','cup 200'], tambah: {'Cup 200 ml': 5000 } }],
    gambar: ['puding-coklat.webp']
   },
   {
