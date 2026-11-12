@@ -11,7 +11,6 @@ window.TOKO = {
   // Ongkir sederhana per kota (rupiah). "Ambil di toko" = 0.
   ongkir: [
     { kota: 'Ambil di toko', biaya: 0 },
-
     { kota: 'Kota lain (cek ongkir via chat)', biaya: 0, tanya: true }
   ],
   gratisOngkirMin: 300000, // belanja >= angka ini gratis ongkir (0 = nonaktif)
@@ -30,7 +29,8 @@ window.PRODUK = [
   {
     id: 'puding coklat', nama: 'puding coklat', kategori: 'puding', harga: 500000, hargaCoret: 100000, label: 'Terlaris', stok: 10,
     deskripsi: 'puding coklat lembut di mulut',
-    varian: [{ nama: 'Ukuran', opsi: ['cup 120','cup 200'], tambah:{ 'Cup 200 ml': 5000 } }],gambar: ['puding-coklat.webp']
+    varian: [{ nama: 'Ukuran', opsi: ['cup 120','cup 200'], tambah:{ 'Cup 200 ml': 5000 } }]
+   gambar: ['puding-coklat.webp']
   },
   {
     id: 'tote-kanvas', nama: 'Tote Bag Kanvas Tebal', kategori: 'Tas', harga: 65000, stok: 25,
