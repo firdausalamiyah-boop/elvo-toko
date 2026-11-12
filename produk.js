@@ -11,6 +11,7 @@ window.TOKO = {
   // Ongkir sederhana per kota (rupiah). "Ambil di toko" = 0.
   ongkir: [
     { kota: 'Ambil di toko', biaya: 0 },
+     { kota: 'Ongkos kirim', biaya:10000},
     { kota: 'Kota lain (cek ongkir via chat)', biaya: 0, tanya: true }
   ],
   gratisOngkirMin: 0, // belanja >= angka ini gratis ongkir (0 = nonaktif)
