@@ -6,17 +6,12 @@ window.TOKO = {
   nama: (window.TEMA && TEMA.nama) || 'Rupa Lokal', // nama toko diambil dari tema.js
   slogan: 'Barang harian buatan perajin lokal',
   // Nomor WhatsApp format internasional tanpa + dan tanpa spasi (62 = Indonesia)
-  wa: '6281200001234',
+  wa: '6282264621278',
   mataUang: 'Rp',
-  // Ongkir sederhana per kota (Rupiah). "Ambil di toko" = 0.
+  // Ongkir sederhana per kota (rupiah). "Ambil di toko" = 0.
   ongkir: [
     { kota: 'Ambil di toko', biaya: 0 },
-    { kota: 'Bandung', biaya: 10000 },
-    { kota: 'Cimahi', biaya: 12000 },
-    { kota: 'Jakarta', biaya: 18000 },
-    { kota: 'Bogor', biaya: 18000 },
-    { kota: 'Surabaya', biaya: 25000 },
-    { kota: 'Yogyakarta', biaya: 22000 },
+
     { kota: 'Kota lain (cek ongkir via chat)', biaya: 0, tanya: true }
   ],
   gratisOngkirMin: 300000, // belanja >= angka ini gratis ongkir (0 = nonaktif)
@@ -33,9 +28,9 @@ window.TOKO = {
    { bentuk: 'kaos'|'tote'|'mug'|'topi'|'botol'|'buku'|'lilin'|'tas'|'tatakan', warna: '#hex', aksen: '#hex' }. */
 window.PRODUK = [
   {
-    id: 'kaos-katun', nama: 'Kaos Katun Combed 30s', kategori: 'Pakaian', harga: 89000, hargaCoret: 109000, label: 'Terlaris', stok: 40,
-    deskripsi: 'Kaos katun combed 30s yang adem dan tidak menerawang. Jahitan rantai di bahu, sablon plastisol tahan cuci.',
-    varian: [{ nama: 'Ukuran', opsi: ['S', 'M', 'L', 'XL'], tambah: { XL: 10000 } }, { nama: 'Warna', opsi: ['Hitam', 'Krem', 'Hijau'] }],
+    id: 'puding coklat', nama: 'puding coklat', kategori: 'puding', harga: 500000, hargaCoret: 100000 label: 'Terlaris', stok: 10,
+    deskripsi: 'puding coklat lembut di mulut',
+    varian: [{ nama: 'Ukuran', opsi: ['cup 120','cup 200'], tambah:{ 'Cup 200 ml': 5000 } }],gambar: ['']
     gambar: [{ bentuk: 'kaos', warna: '#2b2b2b', aksen: '#e7c9a0' }, { bentuk: 'kaos', warna: '#e9dcc4', aksen: '#b4532a' }, { bentuk: 'kaos', warna: '#3f5b45', aksen: '#f2e8d5' }]
   },
   {
