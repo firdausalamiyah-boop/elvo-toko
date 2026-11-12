@@ -3,8 +3,8 @@
    PENGATURAN TOKO & DATA PRODUK — cukup ubah berkas ini.
    ========================================================= */
 window.TOKO = {
-  nama: (window.TEMA && TEMA.nama) || 'Rupa Lokal', // nama toko diambil dari tema.js
-  slogan: 'Barang harian buatan perajin lokal',
+  nama: (window.TEMA && TEMA.nama) || 'elvo puding', // nama toko diambil dari tema.js
+  slogan: 'makanan puding enak, dibuat santai',
   // Nomor WhatsApp format internasional tanpa + dan tanpa spasi (62 = Indonesia)
   wa: '6282264621278',
   mataUang: 'Rp',
