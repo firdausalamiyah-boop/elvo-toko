@@ -28,7 +28,7 @@ window.TOKO = {
 window.PRODUK = [
   {
     id: 'puding coklat', nama: 'puding coklat', kategori: 'puding', harga: 5000, label: 'Terlaris', stok: 10,
-    deskripsi: 'puding coklat lembut di mulut',
+    deskripsi: 'puding coklat lembut di mulut.',
     varian: [{ nama: 'Ukuran', opsi: ['cup 120','cup 200'], tambah:{ 'Cup 200 ml': 5000 } }],
    gambar: ['puding-coklat.webp']
   },
