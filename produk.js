@@ -28,14 +28,13 @@ window.TOKO = {
    { bentuk: 'kaos'|'tote'|'mug'|'topi'|'botol'|'buku'|'lilin'|'tas'|'tatakan', warna: '#hex', aksen: '#hex' }. */
 window.PRODUK = [
   {
-    id: 'puding coklat', nama: 'puding coklat', kategori: 'puding', harga: 500000, hargaCoret: 100000 label: 'Terlaris', stok: 10,
+    id: 'puding coklat', nama: 'puding coklat', kategori: 'puding', harga: 500000, hargaCoret: 100000, label: 'Terlaris', stok: 10,
     deskripsi: 'puding coklat lembut di mulut',
     varian: [{ nama: 'Ukuran', opsi: ['cup 120','cup 200'], tambah:{ 'Cup 200 ml': 5000 } }],gambar: ['puding-coklat.webp']
-    gambar: [{ bentuk: 'kaos', warna: '#2b2b2b', aksen: '#e7c9a0' }, { bentuk: 'kaos', warna: '#e9dcc4', aksen: '#b4532a' }, { bentuk: 'kaos', warna: '#3f5b45', aksen: '#f2e8d5' }]
   },
   {
     id: 'tote-kanvas', nama: 'Tote Bag Kanvas Tebal', kategori: 'Tas', harga: 65000, stok: 25,
-    deskripsi: 'Kanvas 12 oz dengan saku dalam dan resleting. Muat laptop 14 inci, tali panjang nyaman dibahu.',
+    deskripsi: 'Kanvas 12 oz dengan saku dalam dan resleting. Muat laptop 14 inci, tali panjang nyaman di bahu.',
     varian: [{ nama: 'Warna', opsi: ['Natural', 'Hitam'] }],
     gambar: [{ bentuk: 'tote', warna: '#e6d8bd', aksen: '#b4532a' }, { bentuk: 'tote', warna: '#262626', aksen: '#e6d8bd' }]
   },
