@@ -14,7 +14,7 @@ window.TOKO = {
    { kota: 'Ongkos kirim', biaya:10000 },
     { kota: 'Kota lain (cek ongkir via chat)', biaya: 0, tanya: true }
   ],
-  gratisOngkirMin: 100000, // belanja >= angka ini gratis ongkir (0 = nonaktif)
+  gratisOngkirMin: 1000, // belanja >= angka ini gratis ongkir (0 = nonaktif)
   // OPSIONAL: ambil produk dari Google Sheet (File → Bagikan → Publikasikan ke web → CSV).
   // Kolom: id,nama,kategori,harga,hargaCoret,deskripsi,varian,gambar,stok,label
   // varian: "Ukuran:S,M,L;Warna:Hitam,Putih"   gambar: url1|url2 (kosongkan = gambar ilustrasi)
